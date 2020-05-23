@@ -46,7 +46,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:dan@kortschak.io".
+  link: "mailto:dan@kortschak.io"  # For a contact form, use '#contact'.
 - icon: github
   icon_pack: fab
   link: https://github.com/kortschak
