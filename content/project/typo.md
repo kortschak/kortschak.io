@@ -6,7 +6,7 @@ date = "2017-06-20"
 title = "typo"
 
 # Project summary to display on homepage.
-summary = "The typogenetics game from Gödel, Escher, Bach: an Eternal Golden Braid"
+summary = "The typogenetics game from Gödel, Escher, Bach: an Eternal Golden Braid."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
