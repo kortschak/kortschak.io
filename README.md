@@ -1,4 +1,4 @@
-# Hugo site for kortschak.io
+# Hugo site for kortschak.io [![Netlify Status](https://api.netlify.com/api/v1/badges/dcbb15b8-7dce-4c13-8bcc-4b48a21c770d/deploy-status)](https://app.netlify.com/sites/brave-hawking-6c77a8/deploys)
 
 ## Copyright
 
