@@ -16,10 +16,13 @@ url_pdf = "http://www.cell.com/current-biology/pdf/S0960-9822(03)00872-8.pdf"
 name = "HTML"
 url = "http://dx.doi.org/10.1016/j.cub.2003.11.030"
 
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = "acropora-wide.jpg"
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+[image]
 caption = "©2013 Australian Institute of Marine Science CC BY-NC 3.0"
+focal_point = ""
+preview_only = false
 
 +++
 
