@@ -30,7 +30,7 @@ archives of files, online shared drives, and proprietary solutions such as chang
 
 None of these approaches scale well or allow safe and informative histories to be available for auditing the collaboration process.
 
-More recently shared editing platforms such as Coogle docs have become available which goes someway towards this,
+More recently shared editing platforms such as Google docs have become available which goes someway towards this,
 but cannot be used for collaboration on software projects and lack some features that help in the collaboration process.
 
 There are rich solutions to the problem though that have existed in the domain of software engineering for some time.
