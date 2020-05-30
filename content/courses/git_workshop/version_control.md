@@ -83,6 +83,15 @@ The SHA-1 hash is represented in hexadecimal, like so, `f164acde21f01cf3b2ba4f7d
 
 1. It is quite clear what the function of including the repository state, commit message and the author and commiter and time information.
 Why is the SHA-1 of the previous version(s) also included in the hashed stream? Why is this important? (*Hint: Merkle tree*)
+{{< spoiler text="Click to see the answer" >}}
+Including the SHA-1 of the parents in the hashed stream means that the entire history's state is considered in the current version's SHA-1 without having to hash the entire history.
+
+This is based on the principle of a [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree). You can see in this illustration that if you already know the value of **Hash 0** and **Hash 1**, then calculating **Top Hash** is cheaper than rehashing the whole history, particularly if the tree is much larger, but **Top Hash** would still depend on the contents of all the input.
+
+![Merkle tree](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Hash_Tree.svg/640px-Hash_Tree.svg.png)
+
+This is important because ensuring the provenance of all the code is as important as the current state, but the hash must not be too expensive to calculate.
+{{< /spoiler >}}
 
 2. If you knew that the input that generated the SHA-1 hash above was a single word, how would you find the word?
 {{< spoiler text="Click to see the answer" >}}
@@ -101,6 +110,8 @@ for w in $(cat /usr/share/dict/words); do
 done
 exit 1
 ```
+
+Running this code takes some time and it's only a list of words, so finding a large text that matches a specific hash would be not be feasible.
 {{< /spoiler >}}
 
 The next section will go into greater details about how git works and how it is used.
