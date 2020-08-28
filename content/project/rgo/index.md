@@ -13,7 +13,7 @@ image_preview = "argo.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["scientific-code", "go", "golang", "R"]
+tags = ["scientific-code", "go", "golang", "R", "tools"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://github.com/rgonomic/rgo"
