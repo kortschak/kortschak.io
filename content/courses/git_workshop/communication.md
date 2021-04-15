@@ -97,8 +97,6 @@ This will have placed a copy of the upstream git\_workshop repository at your cu
 Note that you can get the link for any GitHub-hosted repository from the green "Clone or download" button to the right of the front page of the project;
 this is available on all repositories that you can see, you do not need to be the owner.
 
-#### Q: Compare the options for cloning from your fork of the git\_workshop repository and the original at github.com/kortschak/git\_workshop. How do they differ? Why?
-
 Make a change to the line of the `PARTICIPANTS.md` file with your workshop ID number adding anything you want to that line.
 
 Once you have made the desired change to the `PARTICIPANTS.md` file, checkout a new branch with a meaningful name, stage the change with `git add` and commit it with `git commit` giving a meaningful commit message.
