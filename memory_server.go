@@ -9,7 +9,7 @@
 // The server is intended to be run as a service. To do this place the
 // following at /lib/systemd/system/memory-server.service
 //  [Unit]
-//  Description=In-memory tatic site server for local website.
+//  Description=In-memory static site server for local website.
 //
 //  [Service]
 //  Type=simple
