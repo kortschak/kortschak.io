@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Scientific Software Engineer
+role: Software Engineer
 
 # Organizations/Affiliations
 organizations:
@@ -18,12 +18,10 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include graphical analysis, reproducible research and genome evolution.
+bio: My interests include graphical analysis, reproducible research and maintainable software.
 
 interests:
-- Reproducible research
 - Software engineering
-- Genome evolution
 - Graphical analysis
 - Data visualisation
 
